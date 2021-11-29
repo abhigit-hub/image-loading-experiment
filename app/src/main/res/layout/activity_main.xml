@@ -7,32 +7,12 @@
     tools:context=".MainActivity">
 
     <include
-        android:id="@+id/layout_imageview"
-        android:layout_height="130dp"
-        android:layout_width="0dp"
-        android:visibility="gone"
-        layout="@layout/layout_imageview"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <include
-        android:id="@+id/layout_glide"
-        android:layout_height="130dp"
-        android:layout_width="0dp"
-        android:visibility="gone"
-        layout="@layout/layout_glide"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layout_imageview"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <include
         android:id="@+id/layout_jpeg"
         android:layout_height="140dp"
         android:layout_width="0dp"
         layout="@layout/layout_jpeg"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layout_glide"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
