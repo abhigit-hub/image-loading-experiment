@@ -24,12 +24,25 @@ class MainActivity : AppCompatActivity() {
 
         Picasso.with(this)
             .load("https://demo-web-harman.demandware.net/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw37446e91/Astra_Hero_Black-1605x1605px.png")
-            .resize(1000, 1000)
+            .transform(SmoothingResizeTransformation(this, R.dimen.widthRes, R.dimen.heightRes))
+            .resize(500, 500)
             .into(c3)
 
-        c4.load("https://demo-web-harman.demandware.net/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw37446e91/Astra_Hero_Black-1605x1605px.png")
+        Picasso.with(this)
+            .load("https://demo-web-harman.demandware.net/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw37446e91/Astra_Hero_Black-1605x1605px.png")
+            .transform(SmoothingResizeTransformation(this, R.dimen.widthRes, R.dimen.heightRes))
+            .resize(750, 750)
+            .into(c4)
+
+        Picasso.with(this)
+            .load("https://demo-web-harman.demandware.net/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw37446e91/Astra_Hero_Black-1605x1605px.png")
+            .transform(SmoothingResizeTransformation(this, R.dimen.widthRes, R.dimen.heightRes))
+            .resize(1000, 1000)
+            .into(c5)
+
+/*        c4.load("https://demo-web-harman.demandware.net/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw37446e91/Astra_Hero_Black-1605x1605px.png")
 
         val uri = Uri.parse("android.resource://com.harman.audiofocus1/drawable/dummy1")
-        c5.setImageURI("https://demo-web-harman.demandware.net/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw37446e91/Astra_Hero_Black-1605x1605px.png")
+        c5.setImageURI("https://demo-web-harman.demandware.net/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw37446e91/Astra_Hero_Black-1605x1605px.png")*/
     }
 }
