@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ImageLoadingExp</string>
+    <string name="_1605_x_1605">1605 x 1605</string>
+    <string name="_802_x_802">802 x 802</string>
+    <string name="_401_x_401">401 x 401</string>
+    <string name="_200_x_200">200 x 200</string>
+    <string name="_100_x_100">100 x 100</string>
 </resources>
