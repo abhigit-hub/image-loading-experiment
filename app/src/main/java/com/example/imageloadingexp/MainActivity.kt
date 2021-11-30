@@ -1,4 +1,4 @@
-package com.harman.imageloadingexp
+package com.example.imageloadingexp
 
 import android.net.Uri
 import android.os.Bundle

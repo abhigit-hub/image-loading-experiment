@@ -1,4 +1,4 @@
-package com.harman.imageloadingexp
+package com.example.imageloadingexp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.harman.imageloadingexp", appContext.packageName)
+        assertEquals("com.example.imageloadingexp", appContext.packageName)
     }
 }

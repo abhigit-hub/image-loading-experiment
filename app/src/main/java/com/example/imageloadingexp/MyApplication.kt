@@ -1,4 +1,4 @@
-package com.harman.imageloadingexp
+package com.example.imageloadingexp
 
 import android.app.Application
 import com.facebook.drawee.backends.pipeline.Fresco

@@ -1,4 +1,4 @@
-package com.harman.imageloadingexp
+package com.example.imageloadingexp
 
 import org.junit.Test
 
