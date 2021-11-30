@@ -11,6 +11,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:contentDescription="@string/_1605_x_1605"
+        android:src="@drawable/dummy1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/c2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -20,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Glide"
+        android:text="Image View"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@id/c1"
         app:layout_constraintEnd_toEndOf="@id/c1"
@@ -41,7 +42,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Glide - ARG_8888"
+        android:text="Glide - Simple Load"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c2"
         app:layout_constraintEnd_toEndOf="@id/c2"
@@ -61,7 +62,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Glide - DS Strategy"
+        android:text="Glide - Resize before load"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c3"
         app:layout_constraintEnd_toEndOf="@id/c3"
@@ -81,7 +82,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Picasso - Transform operator"
+        android:text="Picasso - Simple Load"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c4"
         app:layout_constraintEnd_toEndOf="@id/c4"
@@ -101,7 +102,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sony Dev"
+        android:text="Picasso - Resize before Load"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c5"
         app:layout_constraintEnd_toEndOf="@id/c5"
