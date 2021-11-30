@@ -42,7 +42,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Glide - Simple Load"
+        android:text="Glide"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c2"
         app:layout_constraintEnd_toEndOf="@id/c2"
@@ -54,7 +54,7 @@
         android:layout_height="100dp"
         android:contentDescription="@string/_401_x_401"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/c4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/c2"
         app:layout_constraintTop_toTopOf="parent" />
@@ -62,50 +62,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Glide - Resize before load"
+        android:text="Picasso"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c3"
         app:layout_constraintEnd_toEndOf="@id/c3"
         app:layout_constraintTop_toBottomOf="@id/c3" />
-
-    <ImageView
-        android:id="@+id/c4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:contentDescription="@string/_200_x_200"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/c5"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/c3"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Picasso - Simple Load"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@id/c4"
-        app:layout_constraintEnd_toEndOf="@id/c4"
-        app:layout_constraintTop_toBottomOf="@id/c4" />
-
-    <ImageView
-        android:id="@+id/c5"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:contentDescription="@string/_100_x_100"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/c4"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Picasso - Resize before Load"
-        android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@id/c5"
-        app:layout_constraintEnd_toEndOf="@id/c5"
-        app:layout_constraintTop_toBottomOf="@id/c5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
