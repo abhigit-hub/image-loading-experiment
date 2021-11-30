@@ -10,7 +10,6 @@
         android:id="@+id/c1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/dummy1"
         android:contentDescription="@string/_1605_x_1605"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/c2"
@@ -21,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ImageView Widget"
+        android:text="Glide"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@id/c1"
         app:layout_constraintEnd_toEndOf="@id/c1"
@@ -42,7 +41,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Glide"
+        android:text="Glide - ARG_8888"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c2"
         app:layout_constraintEnd_toEndOf="@id/c2"
@@ -62,7 +61,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Picasso"
+        android:text="Glide - DS Strategy"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c3"
         app:layout_constraintEnd_toEndOf="@id/c3"
@@ -82,13 +81,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Coil"
+        android:text="Picasso - Transform operator"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c4"
         app:layout_constraintEnd_toEndOf="@id/c4"
         app:layout_constraintTop_toBottomOf="@id/c4" />
 
-    <com.facebook.drawee.view.SimpleDraweeView
+    <ImageView
         android:id="@+id/c5"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -102,7 +101,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fresco - Facebook"
+        android:text="Sony Dev"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/c5"
         app:layout_constraintEnd_toEndOf="@id/c5"
